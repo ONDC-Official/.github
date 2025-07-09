@@ -268,6 +268,48 @@ Refer to the following document for the Network Observability API Schema Require
 2. **Email Support**
    For further technical assistance, dedicated technical support team is reachable at the email ID: [techsupport@ondc.org](mailto:techsupport@ondc.org)
 
+## Workbench
+
+**Overview**
+
+The ONDC Workbench is a self-service platform designed to accelerate and simplify the process of protocol compliance for network participants. It provides a suite of automated tools to validate, test, and debug your ONDC API integrations before going live.
+
+**Supported Domains**
+
+Currently available for the following domains (others coming soon):
+- ONDC:RET10
+- ONDC:RET11
+- ONDC:RET12
+- ONDC:LOG10
+- ONDC:LOG11
+
+**Key Features**
+
+- **Schema Validation:** Instantly validate your API payloads against ONDC specifications, highlighting inconsistencies and missing fields to ensure strict protocol adherence.
+- **Scenario Testing:** Simulate end-to-end transactions across various ONDC protocol flows, helping you verify your implementation against real-world scenarios and edge cases.
+- **Comprehensive Reporting:** Receive detailed feedback and actionable reports to quickly identify and resolve issues.
+- **Continuous Updates:** The tool is regularly updated to reflect the latest ONDC protocol changes and best practices.
+- **Experience different scenarios:** Explore and test a variety of protocol flows.
+- **Simulate and validate payloads:** Ensure your payloads meet ONDC requirements.
+- **Debug API interactions:** Troubleshoot and refine your integration with real-time feedback.
+- **Get support as you develop:** Access help and resources throughout your development journey.
+
+**Access**
+
+- **Workbench Portal:** [https://workbench.ondc.tech/home](https://workbench.ondc.tech/home)
+
+**Support & Feedback**
+
+- **Email:** [PW-support@ondc.org](mailto:PW-support@ondc.org)
+- **Raise an Issue:** [ONDC Automation Framework Issues](https://github.com/ONDC-Official/automation-framework/issues)
+- **Daily Community Call:** Join for queries or clarifications, 12:30 PM – 1:15 PM IST: [Google Meet Link](https://meet.google.com/igx-eyxv-nzz)
+
+**Who should use this?**
+
+- Network Participants (NPs) integrating with ONDC
+- Developers and QA teams seeking to ensure protocol compliance
+- Anyone looking to accelerate ONDC onboarding and reduce integration errors
+
 ## Latest Updates
 
 | Domain | Item                  | Date       | Link                                                                                                                                                                     |
@@ -277,3 +319,4 @@ Refer to the following document for the Network Observability API Schema Require
 | Retail | Force Cancellation    | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.tbw83ne54agk#heading=h.hsb8ut13qlci) |
 | Retail | Feature List          | 12/06/2025 | [Feature List](https://docs.google.com/spreadsheets/d/1tINL6xyYXG1mKjvnO9Mtzr_MRMHiRzTVqJbyyQyHEgQ/edit?gid=147707807#gid=147707807)                                        |
 | Retail | Lookup API Update     | 12/06/2025 | [FAQ Draft v0.2](https://docs.google.com/document/d/1Tj_tcex65WjLKflt9a8cxp2L4kNFLTpbgXHk5J2EpaY/edit?tab=t.0#heading=h.hzrjpor3fbt1)                                       |
+| General | Workbench Tool Launched | 2024-06-13 | [Workbench](https://workbench.ondc.tech/home) – Schema Validation & Scenario Testing tools now available. Feedback: PW-support@ondc.org or [GitHub Issues](https://github.com/ONDC-Official/automation-framework/issues) |

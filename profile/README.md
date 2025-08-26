@@ -160,8 +160,8 @@ This domain encompasses subcategories such as **grocery (RET10), food and bevera
 
   This domain empowers individuals to effortlessly access a diverse array of services, covering skilled services like **home painting, chefs and consulations, auction of agricultural outputs, leasing farming machinery and tools, soil testing, assaying services, lab testing, subscriptions**, etc.
 
-| **Domain**   | **API Contract / Developer Guide**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Test Scenarios** | **Log Utility**                                                             | **Mock Server / Sandbox / Reference Application** | **FAQs**                                                                                     |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Domain**   | **API Contract / Developer Guide**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **Test Scenarios** | **Log Utility**                                                             | **Mock Server / Sandbox / Reference Application** | **FAQs**                                                                                     |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Services** | -[PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)  <br />- [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications)  <br />- [Services Developer Guide](https://ondc-official.github.io/ONDC-SRV-Specifications/#) **Select version:** <br />- For Skilled Services: `release-services` <br />- For Auction of Agricultural Outputs: `draft-agri_bids_and_auction`- For Equipment Hiring (Leasing Farming Machinery and Tools): `draft-agri_equipment` <br />- For Soil Testing and Assaying Service: `draft-agri_services` <br />- For Healthcare Services (Lab Test Booking): `draft-healthcare` <br />- For Weighment Services: `draft-weighment` <br />- For Warehouse as a Service: `draft-warehouse` | NA                       | [Services Log Verification](https://github.com/ONDC-Official/log-validation-utility) | [Sandbox](https://mock.ondc.org/)                          | [Services FAQs](https://docs.google.com/document/d/1e_nGOnYb4ld1kxjhOHOsXXOms96aDd6txD8Wh2wl6tk/edit) |
 
 - ### Media, Entertainment, Content (MEC)
@@ -240,10 +240,6 @@ The network participants need to complete the end-to-end testing with ONDC refer
 | B2C                | Logistics          | -                                                                                                                                                                                                                     | -                                                                                                                                                                                                                                                                                           | [https://wits-ref-logistics-app.thewitslab.com/](https://wits-ref-logistics-app.thewitslab.com/)                       | Email "<ishan.dutta@thewitslab.com>" to get the login credentials.                                                                                                                                                                                                                           |
 |                    | Retail             | [https://buyer-app-preprod-v2.ondc.org/](https://buyer-app-preprod-v2.ondc.org/)                                                                                                                                         | Email "<techsupport@ondc.org>" to get the required support.                                                                                                                                                                                                                                 | [https://witslab-bpp-preprod.thewitslab.com/](https://witslab-bpp-preprod.thewitslab.com/)                             | Email "<ishan.dutta@thewitslab.com>" to get the login credentials.                                                                                                                                                                                                                           |
 
-## Taxonomies
-
-- Taxonomies for different domains are available [here](https://drive.google.com/drive/folders/1ZdhZh7wzl4C2452zMYh7wlAvCH-x1b2R).
-
 ## Product Requirement Documents
 
 - PRDs for different use cases are available [here](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE).
@@ -276,15 +272,43 @@ Refer to the following document for the Network Observability API Schema Require
 2. **Email Support**
    For further technical assistance, dedicated technical support team is reachable at the email ID: [techsupport@ondc.org](mailto:techsupport@ondc.org)
 
+## Workbench
+
+**Overview**
+
+The ONDC Workbench is a self-service platform designed to accelerate and simplify the process of protocol compliance for network participants. It provides a suite of automated tools to validate, test, and debug your ONDC API integrations before going live.
+
+**Key Features**
+
+- **Schema Validation:** Instantly validate your API payloads against ONDC specifications, highlighting inconsistencies and missing fields to ensure strict protocol adherence.
+- **Scenario Testing:** Simulate end-to-end transactions across various ONDC protocol flows, helping you verify your implementation against real-world scenarios and edge cases.
+- **Comprehensive Reporting:** Receive detailed feedback and actionable reports to quickly identify and resolve issues.
+- **Continuous Updates:** The tool is regularly updated to reflect the latest ONDC protocol changes and best practices.
+- **Experience different scenarios:** Explore and test a variety of protocol flows.
+- **Simulate and validate payloads:** Ensure your payloads meet ONDC requirements.
+- **Debug API interactions:** Troubleshoot and refine your integration with real-time feedback.
+- **Get support as you develop:** Access help and resources throughout your development journey.
+
+**Access**
+
+- **Workbench Portal:** [https://workbench.ondc.tech/home](https://workbench.ondc.tech/home)
+
+**Support & Feedback**
+
+- **Email:** [PW-support@ondc.org](mailto:PW-support@ondc.org)
+- **Raise an Issue:** [ONDC Automation Framework Issues](https://github.com/ONDC-Official/automation-framework/issues)
+- **Daily Community Call:** Join for queries or clarifications, 12:30 PM – 1:15 PM IST: [Google Meet Link](https://meet.google.com/igx-eyxv-nzz)
+
 ## Latest Updates
 
-| Domain | Item                  | Date       | Link                                                                                                                                                                     |
-| ------ | --------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Retail | [Updated] Reason Code | 12/06/2025 | [Reason codes](https://docs.google.com/spreadsheets/d/1_qAtG6Bu2we3AP6OpXr4GVP3X-32v2xNRNSYQhhR6kA/edit?gid=814799303#gid=814799303)                                        |
-| Retail | Implementation Notes  | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.cnakitx4ijzq#heading=h.we5gaquq88h4) |
-| Retail | Force Cancellation    | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.tbw83ne54agk#heading=h.hsb8ut13qlci) |
-| Retail | Feature List          | 12/06/2025 | [Feature List](https://docs.google.com/spreadsheets/d/1tINL6xyYXG1mKjvnO9Mtzr_MRMHiRzTVqJbyyQyHEgQ/edit?gid=147707807#gid=147707807)                                        |
-| Retail | Lookup API Update     | 12/06/2025 | [FAQ Draft v0.2](https://docs.google.com/document/d/1Tj_tcex65WjLKflt9a8cxp2L4kNFLTpbgXHk5J2EpaY/edit?tab=t.0#heading=h.hzrjpor3fbt1)                                       |
+| Domain  | Item                    | Date       | Link                                                                                                                                                                                                                |
+| ------- | ----------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| General | Workbench Tool Launched | 09/07/2025 | [Workbench](https://workbench.ondc.tech/home) – Schema Validation & Scenario Testing tools now available. Feedback: PW-support@ondc.org or [GitHub Issues](https://github.com/ONDC-Official/automation-framework/issues) |
+| Retail  | [Updated] Reason Code   | 12/06/2025 | [Reason codes](https://docs.google.com/spreadsheets/d/1_qAtG6Bu2we3AP6OpXr4GVP3X-32v2xNRNSYQhhR6kA/edit?gid=814799303#gid=814799303)                                                                                   |
+| Retail  | Force Cancellation      | 12/06/2025 | [API Contract](https://docs.google.com/document/d/1E2OyVXh34YNEVOnS4rO3nPVoqTO3RsG2uh-BqnSrqgY/edit?tab=t.sikbh4ktl6u5#heading=h.qjm7bixfaobb)                                                                         |
+| Retail  | Feature List            | 12/06/2025 | [Feature List](https://docs.google.com/spreadsheets/d/1tINL6xyYXG1mKjvnO9Mtzr_MRMHiRzTVqJbyyQyHEgQ/edit?gid=147707807#gid=147707807)                                                                                   |
+| Retail  | Lookup API Update       | 12/06/2025 | [FAQ Draft v0.2](https://docs.google.com/document/d/1Tj_tcex65WjLKflt9a8cxp2L4kNFLTpbgXHk5J2EpaY/edit?tab=t.0#heading=h.hzrjpor3fbt1)                                                                                  |
+
 ### Stay Informed About Product and Feature Updates
 
 To receive notifications regarding product updates and new feature releases, please provide your email address and domain [here](https://docs.google.com/forms/d/e/1FAIpQLSci6dEcPwf2drUnb3yWt4aHLmfrkzE3GDMv8wvbyNMh8_3mnw/viewform).

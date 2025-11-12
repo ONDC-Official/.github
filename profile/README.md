@@ -271,6 +271,7 @@ Refer to the following document for the Network Observability API Schema Require
    - Launch Chatbot ONDC Buddy: [Link](https://buddy.ondc.org/)
 2. **Email Support**
    For further technical assistance, dedicated technical support team is reachable at the email ID: [techsupport@ondc.org](mailto:techsupport@ondc.org)
+3. **FAQ Support** : [FAQs](https://ondc-official.github.io/ONDC-FAQs/)
 
 ## Workbench
 

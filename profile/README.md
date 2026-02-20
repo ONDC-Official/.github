@@ -250,7 +250,7 @@ Refer to the following document for the Catalog and Store Rejection Report - Fra
 
 > [Catalog Rejection](https://docs.google.com/document/d/1y_kBhwSwyN2D39VucTtqEQdp7WSEGYMg/edit)
 
-> [Swagger Document](https://app.swaggerhub.com/apis/ONDC/Catalog_Status_APIs/1.2.0#)
+> [Swagger Document](https://ondc-official.github.io/catalog-rejection/)
 
 ## City and State codes
 

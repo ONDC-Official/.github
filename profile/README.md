@@ -192,12 +192,13 @@ This domain encompasses subcategories such as **grocery (RET10), food and bevera
 | **Rating** | [v1.2.0](https://docs.google.com/document/d/1VaafY8t47hjpoW6tdezGsPwLwxxaAaGc/edit) | NA | NA | NA | NA |
 | **Score** | [v1.2.0](https://docs.google.com/document/d/126O1wFdA-IuwojiAuLzdpN36vjWfQg9KOA2zRd9-zTY/edit#heading=h.bifjra7hj5b0) | NA | NA | NA | NA |
 
+<!--
 - ### Open Network for Education and Skilling Transformation (ONEST)
 
 | **Domain** | **API Contract/ Developer Guide** | **Test Scenarios** | **Mock Server/ Sandbox/ Reference Application** | **FAQs** |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------- | -------------- |
 | **Work Opportunities (ONEST10)** | -[PRD](https://docs.google.com/document/d/1VydDAqtzjj1jDrJzX4hwZSlYyJsA_bSOJIKYTWxNSpQ/edit?tab=t.0#heading=h.gjdgxs) <br />- [v2.0.0](https://github.com/ONDC-Official/ONDC-ONEST-Specifications/tree/draft-ONEST10-2.0.0) <br /> - [Work Opportunities Developer Guide](https://ondc-official.github.io/ONDC-ONEST-Specifications) | Refer to LogSubmission-UI in the developer guide | Refer to Sandbox-UI in the developer guide | NA |
-
+-->
 
 ## Reference Applications
 
@@ -276,8 +277,8 @@ The ONDC Workbench is a self-service platform designed to accelerate and simplif
 **Support & Feedback**
 
 - **Email:** [techsupport@ondc.org](mailto:techsupport@ondc.org)
-- **Raise an Issue:** [ONDC Automation Framework Issues](https://github.com/ONDC-Official/automation-framework/issues)
-- **Daily Community Call:** Join for queries or clarifications, 12:30 PM – 1:15 PM IST: [Google Meet Link](https://meet.google.com/igx-eyxv-nzz)
+- **Raise an Issue:** [ONDC Workbench Issues](https://github.com/ONDC-Official/automation-framework/issues)
+- **Daily Community Call:** Join for queries or clarifications, 10:00 – 11:00 AM IST: [Google Meet Link](https://meet.google.com/bpo-pwwh-fja)
 
 ## Latest Updates
 

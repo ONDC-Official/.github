@@ -275,7 +275,7 @@ The ONDC Workbench is a self-service platform designed to accelerate and simplif
 
 **Support & Feedback**
 
-- **Email:** [PW-support@ondc.org](mailto:PW-support@ondc.org)
+- **Email:** [techsupport@ondc.org](mailto:techsupport@ondc.org)
 - **Raise an Issue:** [ONDC Automation Framework Issues](https://github.com/ONDC-Official/automation-framework/issues)
 - **Daily Community Call:** Join for queries or clarifications, 12:30 PM – 1:15 PM IST: [Google Meet Link](https://meet.google.com/igx-eyxv-nzz)
 
@@ -283,7 +283,7 @@ The ONDC Workbench is a self-service platform designed to accelerate and simplif
 
 | Domain  | Item                    | Date       | Link                                                                                                                                                                                                                |
 | ------- | ----------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| General | Workbench Tool Launched | 09/07/2025 | [Workbench](https://workbench.ondc.tech/home) – Schema Validation & Scenario Testing tools now available. Feedback: PW-support@ondc.org or [GitHub Issues](https://github.com/ONDC-Official/automation-framework/issues) |
+| General | Workbench Tool Launched | 09/07/2025 | [Workbench](https://workbench.ondc.tech/home) – Schema Validation & Scenario Testing tools now available. Feedback: techsupport@ondc.org or [GitHub Issues](https://github.com/ONDC-Official/automation-framework/issues) |
 | Retail  | [Updated] Reason Code   | 12/06/2025 | [Reason codes](https://docs.google.com/spreadsheets/d/1_qAtG6Bu2we3AP6OpXr4GVP3X-32v2xNRNSYQhhR6kA/edit?gid=814799303#gid=814799303)                                                                                   |
 | Retail  | Force Cancellation      | 12/06/2025 | [API Contract](https://docs.google.com/document/d/1E2OyVXh34YNEVOnS4rO3nPVoqTO3RsG2uh-BqnSrqgY/edit?tab=t.sikbh4ktl6u5#heading=h.qjm7bixfaobb)                                                                         |
 | Retail  | Feature List            | 12/06/2025 | [Feature List](https://docs.google.com/spreadsheets/d/1tINL6xyYXG1mKjvnO9Mtzr_MRMHiRzTVqJbyyQyHEgQ/edit?gid=147707807#gid=147707807)                                                                                   |

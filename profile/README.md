@@ -100,7 +100,7 @@ The complete process is documented [here](https://github.com/ONDC-Official/devel
 
 ## Enabled Domains
 
-Network Participants are requested to refer to the list **[here](https://docs.google.com/spreadsheets/d/10yM4DtZ5cOgRf0uT2KMN6Ucd9IU_YZ__JatYYXtjc1k/edit#gid=1951317229)** for ONDC defined domains and respective codes, across all environments (Staging, Pre-production and Production). The list will be updated as and when required.
+Network Participants are requested to refer to the list **[here](https://docs.google.com/spreadsheets/d/1Plny0C_4WwffquU6otDhuaVoVkuBd2XuyBKVr5oDDqY/edit?usp=sharing)** for ONDC defined domains and respective codes, across all environments (Staging, Pre-production and Production). The list will be updated as and when required.
 
 _Below are links to the **comprehensive developer guide and model implementations** for the enabled domains._
 

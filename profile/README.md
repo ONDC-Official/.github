@@ -123,12 +123,13 @@ This domain encompasses subcategories such as **grocery (RET10), food and bevera
 
 > 💡 It is important to implement **Catalog & Store Rejection Framework** for the **Retail B2C** domain.
 > The documentation is available [here](#catalog-and-store-rejection).
-
+<!--
 #### B2B
 
 | **Domain** | **API Contract / Developer Guide** | **Test Scenarios** | **Mock Server / Reference Application** | **FAQs** |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------- | -------------- |
 | **B2B Retail** | -[API Contract v2.0.2](https://github.com/ONDC-Official/ONDC-RET-Specifications/tree/release-2.0.2) <br />- [Retail Developer Guide](https://ondc-official.github.io/ONDC-RET-Specifications/) <br /> - *Select version: release-2.0.2* <br />- [Taxonomy](https://drive.google.com/drive/folders/1ZdhZh7wzl4C2452zMYh7wlAvCH-x1b2R) | [B2B Test Case Scenarios](https://docs.google.com/document/d/10ouiTKLY4dm1KnXCuhFwK38cYd9_aDQ30bklkqnPRkM/edit) | [Sandbox](https://mock.ondc.org/) | NA |
+-->
 
 #### eB2B and Inventory Less
 
@@ -144,17 +145,17 @@ This domain encompasses subcategories such as **grocery (RET10), food and bevera
 | **Domain** | **API Contract / Developer Guide** | **Test Scenarios** | **Mock Server / Sandbox / Reference Application** | **FAQs** |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | **B2C Logistics** | -[B2C Logistics v1.2](https://docs.google.com/document/d/1CkfxtqyLbSQccJZyNmf9BSGzJBH13gcLOk_tywV-LBk/edit) | [Test Case Scenarios - B2C Logistics](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1670900093) | NA | [B2C Logistics FAQs](https://docs.google.com/document/d/17gCkt9gpnm8jA71gwEwtPPnvBo6szGeFyruvOaueL3c/edit) |
-| **B2B Logistics** | -[B2B Logistics v2.0](https://github.com/ONDC-Official/ONDC-LOG-Specifications) <br /> - [Logistics Developer Guide](https://ondc-official.github.io/ONDC-LOG-Specifications/) <br />- *Select version: draft-2.x* | NA | [Sandbox](https://mock.ondc.org/) | NA |
+| **B2B Logistics for Truck based Delivery** | -[B2B Logistics for Truck based Delivery](https://docs.google.com/document/d/1Z-EJzPv6f80p50pAMGLetUnHzf1dSQ_gVvR4r6O1q88/edit?tab=t.0) | NA | NA | NA |
+<!-- | **B2B Logistics** | -[B2B Logistics v2.0](https://github.com/ONDC-Official/ONDC-LOG-Specifications) <br /> - [Logistics Developer Guide](https://ondc-official.github.io/ONDC-LOG-Specifications/) <br />- *Select version: draft-2.x* | NA | [Sandbox](https://mock.ondc.org/) | NA | -->
 
 - ### Financial Services (FIS)
 
-  This domain facilitates easy access to a spectrum of financial solutions, covering loans, insurance, investments.
+  This domain facilitates easy access to a spectrum of financial solutions, covering loans, insurance, and investments.
 
 | **Domain** | **API Contract / Developer Guide** | **Test Scenarios** | **Mock Server / Sandbox / Reference Application** | **FAQs** |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| **Financial Services** | -[PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE) <br /> - [Financial Services Developer Guide](https://ondc-official.github.io/ONDC-FIS-Specifications/) <br />**Select version:** <br />- For Personal Loan: `release-FIS12-2.0.0` <br />- For Invoice-based Loan: `draft-FIS12-invoice-2.1.0` <br />- For Health Insurance: `draft-health` <br />- For Motor Insurance: `draft-motor` <br />- For Marine Insurance: `draft-marine` <br />- For Investments: `draft-FIS14-enhancements` | Refer to LogSubmission-UI in the developer guide | Refer to Sandbox-UI in the developer guide | [Financial Services FAQs](https://docs.google.com/document/d/1JH9zAK5S3po6GRv6BCdOddxYN6AzjgO57YQE8pVn6lQ/edit) |
-| **Gift Cards** | -[API Specifications](https://docs.google.com/document/d/1iTCQd_jI3mRqgSiaeZBvxWL-G_wkE__xxW-Wua8arVE/edit) | NA | NA | NA |
+|------------|------------------------------------|--------------------|---------------------------------------------------|----------|
+| **Financial Services** | - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)<br>- [Financial Services Developer Guide](https://ondc-official.github.io/ONDC-FIS-Specifications/)<br><br>**Select version:**<br>- For Personal Loan: `release-FIS12-2.0.0`<br>- For Invoice-based Loan: `draft-FIS12-invoice-2.1.0`<br>- For Health Insurance: `draft-health`<br>- For Motor Insurance: `draft-motor`<br>- For Marine Insurance: `draft-marine`<br>- For Investments: `draft-FIS14-enhancements` | Refer to LogSubmission-UI in the developer guide | Refer to Sandbox-UI in the developer guide | [Financial Services FAQs](https://docs.google.com/document/d/1JH9zAK5S3po6GRv6BCdOddxYN6AzjgO57YQE8pVn6lQ/edit) |
+| **Gift Cards** | - [API Specifications](https://docs.google.com/document/d/1iTCQd_jI3mRqgSiaeZBvxWL-G_wkE__xxW-Wua8arVE/edit) | NA | NA | NA |
 
 - ### Travel & Tourism/ Mobility (TRV)
 
@@ -172,27 +173,26 @@ This domain encompasses subcategories such as **grocery (RET10), food and bevera
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Services** | -[PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE) <br />- [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications) <br />- [Services Developer Guide](https://ondc-official.github.io/ONDC-SRV-Specifications/#) **Select version:** <br />- For Skilled Services: `release-services` <br />- For Auction of Agricultural Outputs: `draft-agri_bids_and_auction`- For Equipment Hiring (Leasing Farming Machinery and Tools): `draft-agri_equipment` <br />- For Soil Testing and Assaying Service: `draft-agri_services` <br />- For Healthcare Services (Lab Test Booking): `draft-healthcare` <br />- For Weighment Services: `draft-weighment` <br />- For Warehouse as a Service: `draft-warehouse` | NA | [Sandbox](https://mock.ondc.org/) | [Services FAQs](https://docs.google.com/document/d/1e_nGOnYb4ld1kxjhOHOsXXOms96aDd6txD8Wh2wl6tk/edit) |
 
-- ### Media, Entertainment, Content (MEC)
+<!-- - ### Media, Entertainment, Content (MEC)
 
 | **Domain** | **API Contract/ Developer Guide** | **Test Scenarios** | **Mock Server/ Sandbox/ Reference Application** | **FAQs** |
 | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ----------------------------------------------------- | -------------- |
-| **Media, Entertainment, Content (MEC)** | -[PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE) <br />- [v2.0.0](https://github.com/ONDC-Official/ONDC-MEC-Specifications/tree/draft-print_media) <br /> - [Media, Entertainment, Content Developer Guide](https://ondc-official.github.io/ONDC-MEC-Specifications/) | NA | NA | NA |
+| **Media, Entertainment, Content (MEC)** | -[PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE) <br />- [v2.0.0](https://github.com/ONDC-Official/ONDC-MEC-Specifications/tree/draft-print_media) <br /> - [Media, Entertainment, Content Developer Guide](https://ondc-official.github.io/ONDC-MEC-Specifications/) | NA | NA | NA | -->
 
 - ### Ancilliary Services
 
   - **Issue & Grievance Management (IGM)** within the ONDC Network serves as a critical mechanism for resolving disputes and concerns among Network Participants (NPs).
   - **Reconcillation and Settlement Framework (RSF)** plays a pivotal role in maintaining a comprehensive trail of settlements between Network Participants.
-  - **Rating**
-  - **Score**
+ <!--  - **Rating**
+  - **Score** -->
 
 | **Domain** | **API Contract/ Developer Guide** | **Test Scenarios** | **Sandbox** | **Mock Server/ Reference Application** | **FAQs** |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | **IGM** | [Developer Guide v2.0.0](https://ondc-official.github.io/ONDC-NTS-Specifications/) `select version: draft-igm-2.0.0` <br />-[PRD](https://docs.google.com/document/d/1CBTOuFP4o6KqwYVPlN6H9ArUvygMjFiII-gSv4WXk4s/edit?usp=sharing) | [Test case scenarios - IGM](https://docs.google.com/document/d/1SGTCSzxNPtBvBpvtYf0I-MUxQCrYT_I-/edit?usp=sharing&ouid=100595989766867836454&rtpof=true&sd=true) | WIP | [Mock Server Reference](https://docs.google.com/document/d/1SGTCSzxNPtBvBpvtYf0I-MUxQCrYT_I-/edit?usp=sharing&ouid=100595989766867836454&rtpof=true&sd=true) | [IGM FAQs](https://docs.google.com/document/d/1-NULesI1Z6GQ9y4Z0loGEG5yfunX5u9woON-qxYH6w0/edit) |
 | **RSF** | [Developer Guide v2.0.0](https://ondc-official.github.io/ONDC-NTS-Specifications/) `select version: draft-rsf-2.0.0` <br />-[PRD](https://docs.google.com/document/d/1Pj7e1MuObQeLczx_palbcliUPTkMRYA76esjrfAMT14/edit?usp=sharing) | [Test case scenarios - RSF 2.0](https://docs.google.com/document/d/1rHmQ8joTsT2HDmZdXhPlUKy5QSrJiQuEkTAjLDcNVoA/edit?usp=sharing) | [Refer to this document for testing](https://github.com/ONDC-Official/log-validation-utility) | [Mock Server Reference](https://docs.google.com/document/d/1rHmQ8joTsT2HDmZdXhPlUKy5QSrJiQuEkTAjLDcNVoA/edit?usp=sharing) | [RSF FAQs](https://docs.google.com/document/d/19TCvuwwvOklt9Ev-SKkcXRAdvh6Qyhl9tI1Z_YavHMk/edit) |
-| **Rating** | [v1.2.0](https://docs.google.com/document/d/1VaafY8t47hjpoW6tdezGsPwLwxxaAaGc/edit) | NA | NA | NA | NA |
+<!-- | **Rating** | [v1.2.0](https://docs.google.com/document/d/1VaafY8t47hjpoW6tdezGsPwLwxxaAaGc/edit) | NA | NA | NA | NA |
 | **Score** | [v1.2.0](https://docs.google.com/document/d/126O1wFdA-IuwojiAuLzdpN36vjWfQg9KOA2zRd9-zTY/edit#heading=h.bifjra7hj5b0) | NA | NA | NA | NA |
 
-<!--
 - ### Open Network for Education and Skilling Transformation (ONEST)
 
 | **Domain** | **API Contract/ Developer Guide** | **Test Scenarios** | **Mock Server/ Sandbox/ Reference Application** | **FAQs** |
@@ -219,7 +219,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
 
 | Domain | Use case | Buyer App URL | Onboarding Process / Point of Contact |
 | ------ | -------- | ------------- | ------------------------------------- |
-| B2C    | Retail   | [https://buyer-app-preprod-v2.ondc.org/](https://buyer-app-preprod-v2.ondc.org/) | Email "<techsupport@ondc.org>" to get the required support. |
+| B2C    | Retail   | [https://buyer-app-preprod-v2.ondc.org/](https://buyer-app-preprod-v2.ondc.org/) | Email "<team@ondc.org>" to get the required support. |
 
 ## Product Requirement Documents
 
@@ -245,13 +245,16 @@ Refer to the following document for the Network Observability API Schema Require
 
 > [Network Observability](https://docs.google.com/document/d/1dP_QTLnI1T89mCcJVfbB0S1ZJ7Ej5y3o1Sr3nplserY/edit#heading=h.blfeo5vd64pc)
 
+
 ## Technical support
 1. **Ticket Support**
-   For raising technical issues or tracking support requests, create a ticket at:
-   https://ondcsupport.uvdesk.com/en/customer/create-ticket/
-2. **Email Support**
-   For further technical assistance, dedicated technical support team is reachable at the email ID: [techsupport@ondc.org](mailto:techsupport@ondc.org)
-3. **FAQ Support** : [FAQs](https://ondc-official.github.io/ONDC-FAQs/)
+   Tickets can be raised through the following channels:
+   - **Email:** [ONDC Team](mailto:team@ondc.org)
+   - **Support Portal:**
+     - Registered organisations – Raise your queries [here](https://portal.ondc.org/admin). You may also refer to this video for guidance on [how to submit issues](https://drive.google.com/file/d/1VsZheSdC_hwuliRgptaoiNAlxuWVgeWr/view).
+     - Unregistered users – Raise your queries [here](https://portal.ondc.org/guest-support-request).
+
+2. **FAQ Support** : [FAQs](https://ondc-official.github.io/ONDC-FAQs/)
 
 ## Workbench
 
@@ -275,8 +278,7 @@ The ONDC Workbench is a self-service platform designed to accelerate and simplif
 - **Workbench Portal:** [https://workbench.ondc.tech/home](https://workbench.ondc.tech/home)
 
 **Support & Feedback**
-
-- **Email:** [techsupport@ondc.org](mailto:techsupport@ondc.org)
+- **Email:** [team@ondc.org](mailto:team@ondc.org)
 - **Raise an Issue:** [ONDC Workbench Issues](https://github.com/ONDC-Official/automation-framework/issues)
 - **Daily Community Call:** Join for queries or clarifications, 10:00 – 11:00 AM IST: [Google Meet Link](https://meet.google.com/bpo-pwwh-fja)
 
@@ -284,7 +286,7 @@ The ONDC Workbench is a self-service platform designed to accelerate and simplif
 
 | Domain  | Item                    | Date       | Link                                                                                                                                                                                                                |
 | ------- | ----------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| General | Workbench Tool Launched | 09/07/2025 | [Workbench](https://workbench.ondc.tech/home) – Schema Validation & Scenario Testing tools now available. Feedback: techsupport@ondc.org or [GitHub Issues](https://github.com/ONDC-Official/automation-framework/issues) |
+| General | Workbench Tool Launched | 09/07/2025 | [Workbench](https://workbench.ondc.tech/home) – Schema Validation & Scenario Testing tools now available. Feedback: team@ondc.org or [GitHub Issues](https://github.com/ONDC-Official/automation-framework/issues) |
 | Retail  | [Updated] Reason Code   | 12/06/2025 | [Reason codes](https://docs.google.com/spreadsheets/d/1_qAtG6Bu2we3AP6OpXr4GVP3X-32v2xNRNSYQhhR6kA/edit?gid=814799303#gid=814799303)                                                                                   |
 | Retail  | Force Cancellation      | 12/06/2025 | [API Contract](https://docs.google.com/document/d/1E2OyVXh34YNEVOnS4rO3nPVoqTO3RsG2uh-BqnSrqgY/edit?tab=t.sikbh4ktl6u5#heading=h.qjm7bixfaobb)                                                                         |
 | Retail  | Feature List            | 12/06/2025 | [Feature List](https://docs.google.com/spreadsheets/d/1tINL6xyYXG1mKjvnO9Mtzr_MRMHiRzTVqJbyyQyHEgQ/edit?gid=147707807#gid=147707807)                                                                                   |
